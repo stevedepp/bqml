@@ -78,5 +78,126 @@ Makefile
 
 <img width="682" alt="stevedepp@Steves-MBP-2  dv05bqml_dv" src="https://user-images.githubusercontent.com/38410965/113489265-498bce80-9491-11eb-92c4-b96c94e38069.png">
 
+#
+
+Makefile
+
+—> run
+	python3 run main.py
+￼
+<img width="703" alt="dataset alive already toss and make fresh" src="https://user-images.githubusercontent.com/38410965/113489478-83110980-9492-11eb-804d-3b6796f32eb6.png">
+
+Local serving 
+
+Model description on web browser
+￼
+<img width="745" alt="127 0 0 1" src="https://user-images.githubusercontent.com/38410965/113489482-886e5400-9492-11eb-8561-ab060b2ee7de.png">
+
+#
+
+@GCP
+
+Model description
+
+<img width="686" alt="console cloud google com" src="https://user-images.githubusercontent.com/38410965/113489508-a76ce600-9492-11eb-98b0-050369205203.png">
+
+#
+
+@GCP
+
+Model training
+
+<img width="1011" alt="Google Cloud Platform" src="https://user-images.githubusercontent.com/38410965/113489517-b94e8900-9492-11eb-8fd1-a8e40de8e458.png">
+
+#
+
+@GCP
+
+Model evaluation
+
+<img width="1011" alt="Google Cloud Platform 8 msds-434-depp-dv5" src="https://user-images.githubusercontent.com/38410965/113489527-c9666880-9492-11eb-8f1b-c07aa0760a0c.png">
+
+#
+
+Local Serving
+
+Model evaluation - shell
+￼
+Model evaluation - browser via Flask
+
+<img width="745" alt="TypeError" src="https://user-images.githubusercontent.com/38410965/113489545-e26f1980-9492-11eb-83e3-cbaca2658809.png">
+
+#
+
+Local serving 
+
+Clean up
+
+<img width="686" alt="ound one" src="https://user-images.githubusercontent.com/38410965/113489569-f61a8000-9492-11eb-8168-c2f2d3974e5c.png">
+
+Restart
+
+<img width="703" alt="make run" src="https://user-images.githubusercontent.com/38410965/113489571-f87cda00-9492-11eb-962e-57180886dc09.png">
+
+#
+
+BQ ML served via Google App Engine.
+
+Code
+
+Removing data sets dynamically
+
+<img width="767" alt="from google cloud import bigquery" src="https://user-images.githubusercontent.com/38410965/113489591-14807b80-9493-11eb-9847-30fccb6ef198.png">
+
+#
+
+CREAT MODEL —> Model description 
+
+<img width="712" alt="29 bigquery-public-data google_analytics_sample ga_sessions_+" src="https://user-images.githubusercontent.com/38410965/113489602-2cf09600-9493-11eb-98bb-256738992ca2.png">
+
+#
+
+Model evaluation 
+
+<img width="719" alt="Ln 37, Col 13 Spaces 4 UTF-8 LE Python R" src="https://user-images.githubusercontent.com/38410965/113489620-3bd74880-9493-11eb-95eb-3406f7cf5866.png">
+
+#
+
+Flask
+
+<img width="786" alt="stevedepp  Documents" src="https://user-images.githubusercontent.com/38410965/113489630-4d205500-9493-11eb-90af-1c70438a351b.png">
+
+#
+
+BQ ML served via Google App Engine.
+
+Deploy
+https://msds-434-depp-dv5.ue.r.appspot.com
+
+<img width="682" alt="stevedepp staff" src="https://user-images.githubusercontent.com/38410965/113489636-5f01f800-9493-11eb-85dc-9c5b32269120.png">
+
+<img width="997" alt="502 Bad Gateway" src="https://user-images.githubusercontent.com/38410965/113489638-61fce880-9493-11eb-9a98-db870dea01c2.png">
+
+#
+
+Deploy
+
+<img width="682" alt="bqml_dv-stevedepp@Steves-MBP-2" src="https://user-images.githubusercontent.com/38410965/113489677-907ac380-9493-11eb-9df1-115af16cbecc.png">
+
+#
+
+BQ ML served via Google App Engine.
+
+Next steps
+- [ ] Logs
+- [ ] Tests
+- [ ] Modular design
+    - [ ] CREATE MODEL
+    - [ ] EVALUATE MODEL
+    - [ ] web.app 
+- [ ] @click
+
+#
+
 
 
