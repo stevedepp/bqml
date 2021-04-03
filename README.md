@@ -91,9 +91,10 @@ MSDS 434 section 55**
 
 **Makefile**
 
-—> `make run`
-	python3 run main.py
+—> `make run`  
+	python3 run main.py  
 ￼
+
 <img width="703" alt="dataset alive already toss and make fresh" src="https://user-images.githubusercontent.com/38410965/113489478-83110980-9492-11eb-804d-3b6796f32eb6.png">
 
 ### Local serving 
