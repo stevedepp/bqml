@@ -1,5 +1,5 @@
-# bqml
-a GCP BQ ML model to be deployed on GAE
+bqml  
+### a GCP BQ ML model to be deployed on GAE
 
 (please click on the demo video below to hear sound.).  
 ![demo](https://user-images.githubusercontent.com/38410965/111926054-a3e46280-8a81-11eb-89b1-db78ce24ffe6.mp4)
@@ -11,10 +11,10 @@ and deploy that to Google App Engine.  Via command line, I was able to coerce BQ
 and present model evaluation in a shell script, but i wasn’t able to serve the evaluation not locally in a web browser.  I learned a lot of BQ and gcloud command line during this experience and found ways ... 
 
 Demo Video 5
-BQ ML served via Google App Engine.
+### BQ ML served via Google App Engine.
 
-Steve Depp
-MSDS 434 section 55 
+**Steve Depp
+MSDS 434 section 55** 
 
 Objectives: functions 
 - [x] BQ ML create a binary logistic regression model via CREATE MODEL
@@ -45,7 +45,7 @@ Learning
 
 > ... to make Makefiles very useful. For example, I set up this make file entry ...
 
-BQ ML served via Google App Engine.
+### BQ ML served via Google App Engine.
 
 Makefile
 -	make setup
