@@ -137,11 +137,14 @@ MSDS 434 section 55**
 
 > ... worked fine in a shell script . [pause] Up here on top is BQML returning an evaluation of the logistic model, but local serving of evaluations to a browser didn’t go so well despite a million tries. (Thus, the usefulness of Make files!). Lastly, as I mentioned, I learned alot about dynamically controlling datasets via command line and ...
 
-### Local Serving
+### Local Serving  
 
-**Model evaluation - shell**
+**Model evaluation - shell**  
 ￼
-**Model evaluation - browser via Flask**
+<img width="682" alt="AS label," src="https://user-images.githubusercontent.com/38410965/113490864-dd15cd00-949a-11eb-9aef-36b1c716e00e.png">
+
+
+**Model evaluation - browser via Flask**  
 
 <img width="745" alt="TypeError" src="https://user-images.githubusercontent.com/38410965/113489545-e26f1980-9492-11eb-83e3-cbaca2658809.png">
 
@@ -149,13 +152,13 @@ MSDS 434 section 55**
 
 > ... via Flask [pause].  Here is a route to clean up datasets so that the model can be re run.  
 
-Local serving 
+### Local serving  
 
-Clean up
+**Clean up**  
 
 <img width="686" alt="ound one" src="https://user-images.githubusercontent.com/38410965/113489569-f61a8000-9492-11eb-8168-c2f2d3974e5c.png">
 
-Restart
+**Restart**  
 
 <img width="703" alt="make run" src="https://user-images.githubusercontent.com/38410965/113489571-f87cda00-9492-11eb-962e-57180886dc09.png">
 
@@ -163,23 +166,23 @@ Restart
 
 > A quick review of code is provide here.  Here at bottom, I am showing you a "try except" routine for checking whether a data set needs to be created for the model to run.
 
-BQ ML served via Google App Engine.
+### BQ ML served via Google App Engine.
 
-Code
+**Code**  
 
-Removing data sets dynamically
+**Removing data sets dynamically**  
 
 <img width="767" alt="from google cloud import bigquery" src="https://user-images.githubusercontent.com/38410965/113489591-14807b80-9493-11eb-9847-30fccb6ef198.png">
 
 #
 
-CREAT MODEL —> Model description 
+**CREATE MODEL —> Model description**   
 
 <img width="712" alt="29 bigquery-public-data google_analytics_sample ga_sessions_+" src="https://user-images.githubusercontent.com/38410965/113489602-2cf09600-9493-11eb-98bb-256738992ca2.png">
 
 #
 
-Model evaluation 
+**Model evaluation**   
 
 <img width="719" alt="Ln 37, Col 13 Spaces 4 UTF-8 LE Python R" src="https://user-images.githubusercontent.com/38410965/113489620-3bd74880-9493-11eb-95eb-3406f7cf5866.png">
 
@@ -187,7 +190,7 @@ Model evaluation
 
 > And here’s the cleanup route in Flask to delete datasets.
 
-Flask
+**Flask**  
 
 <img width="786" alt="stevedepp  Documents" src="https://user-images.githubusercontent.com/38410965/113489630-4d205500-9493-11eb-90af-1c70438a351b.png">
 
@@ -195,10 +198,10 @@ Flask
 
 > And, as I said deploying didnt go well, ...
 
-BQ ML served via Google App Engine.
+### BQ ML served via Google App Engine.  
 
-Deploy
-https://msds-434-depp-dv5.ue.r.appspot.com
+**Deploy**  
+https://msds-434-depp-dv5.ue.r.appspot.com  
 
 <img width="682" alt="stevedepp staff" src="https://user-images.githubusercontent.com/38410965/113489636-5f01f800-9493-11eb-85dc-9c5b32269120.png">
 
@@ -209,7 +212,7 @@ https://msds-434-depp-dv5.ue.r.appspot.com
 > ... but that just leaves more fun to do ...
 
 
-Deploy
+**Deploy**  
 
 <img width="682" alt="bqml_dv-stevedepp@Steves-MBP-2" src="https://user-images.githubusercontent.com/38410965/113489677-907ac380-9493-11eb-9df1-115af16cbecc.png">
 
@@ -217,9 +220,9 @@ Deploy
 
 > ... next week.
 
-BQ ML served via Google App Engine.
+### BQ ML served via Google App Engine.
 
-Next steps
+**Next steps**  
 - [ ] Logs
 - [ ] Tests
 - [ ] Modular design
@@ -227,8 +230,3 @@ Next steps
     - [ ] EVALUATE MODEL
     - [ ] web.app 
 - [ ] @click
-
-#
-
-
-
