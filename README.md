@@ -6,6 +6,10 @@ a GCP BQ ML model to be deployed on GAE
 
 #
 
+> Hello thank you for watching my video. Objective for this weeks project is to employ BQ ML to serve up an ML model
+and deploy that to Google App Engine.  Via command line I was able to coerce BQ ML to create and serve a model locally 
+and present model evaluation in a shell script but i wasn’t able to serve the evaluation not locally in a web browser.  I learned a lot of BQ and gcloud command line during this experience and found ways ... 
+
 Demo Video 5
 BQ ML served via Google App Engine.
 
@@ -39,6 +43,8 @@ Learning
 
 #
 
+> ... to make Makefiles very useful. For example I set up this make file entry ...
+
 BQ ML served via Google App Engine.
 
 Makefile
@@ -53,6 +59,8 @@ Makefile
 ￼
 <img width="1298" alt="bqml_dv make setup" src="https://user-images.githubusercontent.com/38410965/113489238-18ab9980-9491-11eb-8a8d-40d9622fae0e.png">
 
+> ... shown here at bottom to reestablish connects between service accounts and keys [pause] when 'make run' ... 
+
 Makefile
 
 —> install
@@ -60,6 +68,8 @@ Makefile
 <img width="682" alt="stevedepp@Steves-MBP-2" src="https://user-images.githubusercontent.com/38410965/113489250-324ce100-9491-11eb-940b-f212b1eee65b.png">
 
 #
+
+> runs the main.py file, the BQML model descriptors are served locally, and  those descriptors show up ... 
 
 Makefile
 
@@ -80,6 +90,8 @@ Makefile
 
 #
 
+> ... at GCP as well. as did ...
+
 Makefile
 
 —> run
@@ -95,6 +107,8 @@ Model description on web browser
 
 #
 
+> training indicators, and ...
+
 @GCP
 
 Model description
@@ -102,6 +116,8 @@ Model description
 <img width="686" alt="console cloud google com" src="https://user-images.githubusercontent.com/38410965/113489508-a76ce600-9492-11eb-98b0-050369205203.png">
 
 #
+
+> ... model evaluations. Model evaluations 
 
 @GCP
 
@@ -111,6 +127,8 @@ Model training
 
 #
 
+> ... worked fine in a shell script . [pause] Up here on top is BQML returning an evaluation of the logistic model, but local serving of evaluations to a browser didn’t go so well despite a million tries. (Thus, the usefulness of Make files!). Lastly, as I mentioned, I learned alot about dynamically controlling datasets via command line and ...
+
 @GCP
 
 Model evaluation
@@ -118,6 +136,8 @@ Model evaluation
 <img width="1011" alt="Google Cloud Platform 8 msds-434-depp-dv5" src="https://user-images.githubusercontent.com/38410965/113489527-c9666880-9492-11eb-8f1b-c07aa0760a0c.png">
 
 #
+
+> ... via Flask [pause].  Here is a route to clean up datasets so that the model can be re run.  
 
 Local Serving
 
@@ -128,6 +148,8 @@ Model evaluation - browser via Flask
 <img width="745" alt="TypeError" src="https://user-images.githubusercontent.com/38410965/113489545-e26f1980-9492-11eb-83e3-cbaca2658809.png">
 
 #
+
+> A quick review of code is provide here.  Here at bottom, I am showing you a "try except" routine for checking whether a data set needs to be created for the model to run.
 
 Local serving 
 
