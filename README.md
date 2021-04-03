@@ -1,4 +1,4 @@
-### A Google Cloud Platform BigQuery Machine Learning model deployed on Google App Engine
+## A Google Cloud Platform BigQuery Machine Learning model deployed on Google App Engine
 
 Transcript & slides are below. Please click this demo video to hear it with sound.  
 
