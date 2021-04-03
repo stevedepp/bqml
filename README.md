@@ -7,8 +7,8 @@ a GCP BQ ML model to be deployed on GAE
 #
 
 > Hello thank you for watching my video. Objective for this weeks project is to employ BQ ML to serve up an ML model
-and deploy that to Google App Engine.  Via command line I was able to coerce BQ ML to create and serve a model locally 
-and present model evaluation in a shell script but i wasn’t able to serve the evaluation not locally in a web browser.  I learned a lot of BQ and gcloud command line during this experience and found ways ... 
+and deploy that to Google App Engine.  Via command line, I was able to coerce BQ ML to create and serve a model locally 
+and present model evaluation in a shell script, but i wasn’t able to serve the evaluation not locally in a web browser.  I learned a lot of BQ and gcloud command line during this experience and found ways ... 
 
 Demo Video 5
 BQ ML served via Google App Engine.
@@ -43,7 +43,7 @@ Learning
 
 #
 
-> ... to make Makefiles very useful. For example I set up this make file entry ...
+> ... to make Makefiles very useful. For example, I set up this make file entry ...
 
 BQ ML served via Google App Engine.
 
@@ -59,8 +59,6 @@ Makefile
 ￼
 <img width="1298" alt="bqml_dv make setup" src="https://user-images.githubusercontent.com/38410965/113489238-18ab9980-9491-11eb-8a8d-40d9622fae0e.png">
 
-> ... shown here at bottom to reestablish connects between service accounts and keys [pause] when 'make run' ... 
-
 Makefile
 
 —> install
@@ -69,7 +67,7 @@ Makefile
 
 #
 
-> runs the main.py file, the BQML model descriptors are served locally, and  those descriptors show up ... 
+> ... shown here at bottom to reestablish connects between service accounts and keys. [pause] When 'make run' ... 
 
 Makefile
 
@@ -90,7 +88,7 @@ Makefile
 
 #
 
-> ... at GCP as well. as did ...
+> ... runs the main.py file, the BQML model descriptors are served locally, and  those descriptors show up ... 
 
 Makefile
 
@@ -107,7 +105,7 @@ Model description on web browser
 
 #
 
-> training indicators, and ...
+> ... at GCP as well, as did ...
 
 @GCP
 
@@ -117,7 +115,7 @@ Model description
 
 #
 
-> ... model evaluations. Model evaluations 
+> training indicators, and ...
 
 @GCP
 
@@ -127,7 +125,7 @@ Model training
 
 #
 
-> ... worked fine in a shell script . [pause] Up here on top is BQML returning an evaluation of the logistic model, but local serving of evaluations to a browser didn’t go so well despite a million tries. (Thus, the usefulness of Make files!). Lastly, as I mentioned, I learned alot about dynamically controlling datasets via command line and ...
+> ... model evaluations. Model evaluations ...
 
 @GCP
 
@@ -137,7 +135,7 @@ Model evaluation
 
 #
 
-> ... via Flask [pause].  Here is a route to clean up datasets so that the model can be re run.  
+> ... worked fine in a shell script . [pause] Up here on top is BQML returning an evaluation of the logistic model, but local serving of evaluations to a browser didn’t go so well despite a million tries. (Thus, the usefulness of Make files!). Lastly, as I mentioned, I learned alot about dynamically controlling datasets via command line and ...
 
 Local Serving
 
@@ -149,7 +147,7 @@ Model evaluation - browser via Flask
 
 #
 
-> A quick review of code is provide here.  Here at bottom, I am showing you a "try except" routine for checking whether a data set needs to be created for the model to run.
+> ... via Flask [pause].  Here is a route to clean up datasets so that the model can be re run.  
 
 Local serving 
 
@@ -162,6 +160,8 @@ Restart
 <img width="703" alt="make run" src="https://user-images.githubusercontent.com/38410965/113489571-f87cda00-9492-11eb-962e-57180886dc09.png">
 
 #
+
+> A quick review of code is provide here.  Here at bottom, I am showing you a "try except" routine for checking whether a data set needs to be created for the model to run.
 
 BQ ML served via Google App Engine.
 
@@ -185,11 +185,15 @@ Model evaluation
 
 #
 
+> And here’s the cleanup route in Flask to delete datasets.
+
 Flask
 
 <img width="786" alt="stevedepp  Documents" src="https://user-images.githubusercontent.com/38410965/113489630-4d205500-9493-11eb-90af-1c70438a351b.png">
 
 #
+
+> And, as I said deploying didnt go well, ...
 
 BQ ML served via Google App Engine.
 
@@ -202,11 +206,16 @@ https://msds-434-depp-dv5.ue.r.appspot.com
 
 #
 
+> ... but that just leaves more fun to do ...
+
+
 Deploy
 
 <img width="682" alt="bqml_dv-stevedepp@Steves-MBP-2" src="https://user-images.githubusercontent.com/38410965/113489677-907ac380-9493-11eb-9df1-115af16cbecc.png">
 
 #
+
+> ... next week.
 
 BQ ML served via Google App Engine.
 
