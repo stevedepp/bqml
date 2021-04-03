@@ -1,6 +1,7 @@
 ### A Google Cloud Platform BigQuery Machine Learning model deployed on Google App Engine
 
-(please click on the demo video below to hear sound.).  
+Transcript & slides are below. Please click this demo video to hear it with sound.  
+
 ![demo](https://user-images.githubusercontent.com/38410965/111926054-a3e46280-8a81-11eb-89b1-db78ce24ffe6.mp4)
 
 #
