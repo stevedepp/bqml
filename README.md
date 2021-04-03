@@ -10,7 +10,7 @@ bqml
 and deploy that to Google App Engine.  Via command line, I was able to coerce BQ ML to create and serve a model locally 
 and present model evaluation in a shell script, but i wasn’t able to serve the evaluation not locally in a web browser.  I learned a lot of BQ and gcloud command line during this experience and found ways ... 
 
-Demo Video 5
+**Demo Video 5:**
 ### BQ ML served via Google App Engine.
 
 **Steve Depp
