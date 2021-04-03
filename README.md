@@ -46,7 +46,7 @@ MSDS 434 section 55**
 
 ### BQ ML served via Google App Engine.
 
-Makefile
+**Makefile**  
 -	make setup
 -	make install
 -	make lint
@@ -54,13 +54,13 @@ Makefile
 -	make run
 -	make dev
 
-—> setup
+—> `make setup`  
 ￼
 <img width="1298" alt="bqml_dv make setup" src="https://user-images.githubusercontent.com/38410965/113489238-18ab9980-9491-11eb-8a8d-40d9622fae0e.png">
 
-Makefile
+**Makefile**  
 
-—> install
+—> `make install`  
 ￼
 <img width="682" alt="stevedepp@Steves-MBP-2" src="https://user-images.githubusercontent.com/38410965/113489250-324ce100-9491-11eb-940b-f212b1eee65b.png">
 
@@ -68,15 +68,15 @@ Makefile
 
 > ... shown here at bottom to reestablish connects between service accounts and keys. [pause] When 'make run' ... 
 
-Makefile
+**Makefile**  
 
-—> lint
+—> `make lint`    
 ￼
 <img width="682" alt="imported as pi" src="https://user-images.githubusercontent.com/38410965/113489273-56102700-9491-11eb-8d6a-f315a60ad4ba.png">
 
-Makefile
+**Makefile**  
 
-—> setup_bq
+—> `setup_bq`
 -	makes credentials dir / file
 -	deletes / adds / binds
 	-	service account
@@ -89,16 +89,16 @@ Makefile
 
 > ... runs the main.py file, the BQML model descriptors are served locally, and  those descriptors show up ... 
 
-Makefile
+**Makefile**
 
-—> run
+—> `make run`
 	python3 run main.py
 ￼
 <img width="703" alt="dataset alive already toss and make fresh" src="https://user-images.githubusercontent.com/38410965/113489478-83110980-9492-11eb-804d-3b6796f32eb6.png">
 
-Local serving 
+### Local serving 
 
-Model description on web browser
+**Model description on web browser**
 ￼
 <img width="745" alt="127 0 0 1" src="https://user-images.githubusercontent.com/38410965/113489482-886e5400-9492-11eb-8561-ab060b2ee7de.png">
 
@@ -106,9 +106,9 @@ Model description on web browser
 
 > ... at GCP as well, as did ...
 
-@GCP
+### @GCP
 
-Model description
+**Model description**  
 
 <img width="686" alt="console cloud google com" src="https://user-images.githubusercontent.com/38410965/113489508-a76ce600-9492-11eb-98b0-050369205203.png">
 
@@ -116,9 +116,9 @@ Model description
 
 > training indicators, and ...
 
-@GCP
+### @GCP
 
-Model training
+**Model training**  
 
 <img width="1011" alt="Google Cloud Platform" src="https://user-images.githubusercontent.com/38410965/113489517-b94e8900-9492-11eb-8fd1-a8e40de8e458.png">
 
@@ -126,9 +126,9 @@ Model training
 
 > ... model evaluations. Model evaluations ...
 
-@GCP
+### @GCP
 
-Model evaluation
+**Model evaluation**
 
 <img width="1011" alt="Google Cloud Platform 8 msds-434-depp-dv5" src="https://user-images.githubusercontent.com/38410965/113489527-c9666880-9492-11eb-8f1b-c07aa0760a0c.png">
 
@@ -136,11 +136,11 @@ Model evaluation
 
 > ... worked fine in a shell script . [pause] Up here on top is BQML returning an evaluation of the logistic model, but local serving of evaluations to a browser didn’t go so well despite a million tries. (Thus, the usefulness of Make files!). Lastly, as I mentioned, I learned alot about dynamically controlling datasets via command line and ...
 
-Local Serving
+### Local Serving
 
-Model evaluation - shell
+**Model evaluation - shell**
 ￼
-Model evaluation - browser via Flask
+**Model evaluation - browser via Flask**
 
 <img width="745" alt="TypeError" src="https://user-images.githubusercontent.com/38410965/113489545-e26f1980-9492-11eb-83e3-cbaca2658809.png">
 
