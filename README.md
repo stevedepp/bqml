@@ -15,24 +15,24 @@ and present model evaluation in a shell script, but i wasn’t able to serve the
 **Steve Depp
 MSDS 434 section 55** 
 
-Objectives: functions 
+**Objectives: functions**   
 - [x] BQ ML create a binary logistic regression model via CREATE MODEL
 - [x] ML.EVALUATE to evaluate
 - [ ] ML.PREDICT to serve predictions 
 
-Objectives: engineering
+**Objectives: engineering**  
 - [x] Local BQML model creation
 - [x] Local serving of BQML model description
 - [x] Terminal BQ ML model evaluation
 - [ ] Local serving BQML model evaluation
 - [ ] Google App Engine
 
-Hair pulls
+**Hair pulls**  
 - [x] Managing datasets dynamically
 - [x] App Engine dynamics
 - [x] Reinstalling gcloud 
 
-Learning
+**Learning**  
 - [x] BQ command line
 - [x] BQ Python SDK command line
 - [x] Service accounts via command line
